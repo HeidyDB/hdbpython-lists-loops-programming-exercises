@@ -3,7 +3,7 @@ chunk_two = ['Lucas', 'Jake', 'Scott', 'Amy', 'Molly', 'Hannah', 'Lucas']
 
 
 def merge_list(list1, list2):
-    # Your code here. unor las dos listas 
+    # Your code here. unir las dos listas 
     chunk_both= []
     for i in list1:
         chunk_both.append(i)

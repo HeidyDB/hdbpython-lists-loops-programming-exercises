@@ -4,5 +4,7 @@ contact = {
     "email": "test@test.com"
 }
 
-# Your code here
+# imprimir todos los elementos del diccionario
+for key in contact.keys():
+    print (f'{key}: {contact[key]}')
 

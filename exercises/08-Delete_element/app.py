@@ -1,10 +1,10 @@
 people = ['juan','ana','michelle','daniella','stefany','lucy','barak']
 
 def delete_person(person_name):
-    # Your code here
+    # borrar el nombre d la persona 
     new_list = []
     for i in people:
-        if i!= person_name:
+        if i.lower()!= person_name.lower():
             new_list.append(i)
     return (new_list)
 
