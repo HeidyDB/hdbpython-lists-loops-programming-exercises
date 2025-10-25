@@ -10,11 +10,5 @@ tasks = [
 ]
 
 
-# quitar todas las tareas no hechas c filter 
-def quitar_tareas_no_hechas(tarea):
-    if tarea['done']:
-        return (tarea['done'])
-  
+# Your code here
 
-lista_tareas_hecha= list(filter(quitar_tareas_no_hechas, tasks))
-print (lista_tareas_hecha)

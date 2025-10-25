@@ -7,10 +7,4 @@ incoming_ajax_data = [
 ]
 
 # Your code here
-def data_transformer(lista):
-    print(lista['name']+ " " + lista['last_name'])
-
-new_list= list(map(data_transformer, incoming_ajax_data ))
-print (new_list)
-
 

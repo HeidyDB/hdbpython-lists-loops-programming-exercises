@@ -2,8 +2,8 @@ all_numbers = [23,12,35,5,3,2,3,54,3,21,534,23,42,1]
 
 
 def filter_function(item):
-    # filter quita elemento de una lista original y devuelve una nueva lista
-    return item > 10
+    # Update here
+    return item % 2 == 1
     
 greater_than_ten = list(filter(filter_function, all_numbers))
 
